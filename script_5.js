@@ -13,6 +13,8 @@ const books = [
   { title: 'Guerre et Paix', id: 748147, rented: 19 }
 ];
 
+console.log("********script_5********\n");
+
 console.log("------------------------------")
 console.log("Est-ce que tous les livres ont été au moins empruntés une fois ?\n")
 const allRented = books.every(book => book.rented > 0);

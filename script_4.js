@@ -69,6 +69,7 @@ const sortEnt = () => {
   console.log(entrepreneurs);
 }
 
+console.log("********script_4********");
 getSeventies();
 getNames();
 getCurrentAge();
